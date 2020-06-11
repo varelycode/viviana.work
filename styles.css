@@ -1,0 +1,169 @@
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.arrow {
+    border: solid grey;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.arrow:hover{
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer {
+
+
+    background-image: linear-gradient(95deg, #ED213A 0%, #93291E 90%);
+    min-height: 25%;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-shadow: 1px 1px darkblue;
+    color: white;
+    font-weight: 500;
+
+    
+}
+.footer-left{
+
+
+}
+
+.footer-center {
+
+
+}
+
+.footer-right {
+
+
+}
+
+.footer-subtext{
+
+    padding: 0px 0px 0px 50px;
+    font-size: 13px;
+
+
+}
+
+.footer-heading {
+
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0px 5px 50px;
+}
+
+.hero{
+
+    background-image: linear-gradient(95deg, #000000 0%, #2c3e50 90%);
+    min-height: 100%;
+    min-width: 100%;
+
+
+
+}
+
+.nav-container{
+
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+        background-image: linear-gradient(95deg, #000000 0%, #2c3e50 90%);
+        width: 100%;
+        height: 10%;
+        
+}
+
+
+.nav-brand{
+
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Montserrat',sans-serif;
+    padding: 15px 50px 15px 50px;
+}
+.nav-item {
+
+    text-transform: uppercase;
+
+}
+
+.nav-item a{
+
+    display: block;
+    text-align: center;
+    padding: 20px 70px;
+    font-size: 11px;
+    border-bottom: 3px solid transparent;
+
+}
+
+.nav-item a:hover {
+
+    opacity: .7;
+    box-shadow: tomato;
+    outline: tomato;
+    color: whitesmoke;
+    border-bottom: 3px solid red;
+
+
+
+}
+
+
+nav-item a:active {
+
+    border-bottom: 3px solid red;
+
+}
+
+.nav-social{
+    
+
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+
+
+
+
+
